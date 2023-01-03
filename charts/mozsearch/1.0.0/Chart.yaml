@@ -1,0 +1,13 @@
+apiVersion: v2
+appVersion: 20230103
+dependencies:
+- name: common
+  repository: file://../../../library/common/2207.0.0
+  version: 2207.0.0
+description: Mozilla code search website. (Please file bugs in bugzilla at https://mzl.la/2YtXmoN)
+home: https://github.com/instret/mozsearch
+icon: https://raw.githubusercontent.com/instret/mozsearch/master/static/icons/search.png
+keywords:
+- productivity
+name: mozsearch
+version: 1.0.0
