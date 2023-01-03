@@ -111,8 +111,8 @@ questions:
       $ref:
         - "definitions/timezone"
 
-  - variable: configVolumeMounts
-    label: "Caddy Config Storage"
+  - variable: appVolumeMounts
+    label: "Caddy Storage"
     group: "Storage"
     schema:
       type: dict
@@ -154,14 +154,7 @@ questions:
                         required: true
                         $ref:
                           - "validations/lockedHostPath"
-
-  - variable: dataVolumeMounts
-    label: "Caddy Data Storage"
-    group: "Storage"
-    schema:
-      type: dict
-      attrs:
-        - variable: config
+        - variable: data
           label: "Configuration Volume"
           schema:
             type: dict
