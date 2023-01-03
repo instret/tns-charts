@@ -28,7 +28,7 @@ questions:
       type: int
       min: 9000
       max: 65535
-      default: 9001
+      default: 9000
       required: true
   - variable: ws_port
     label: "WebSocket Port for vaultwarden"
@@ -37,7 +37,7 @@ questions:
       type: int
       min: 9000
       max: 65535
-      default: 9002
+      default: 9001
       required: true
   - variable: hostNetwork
     label: "Host Network"
