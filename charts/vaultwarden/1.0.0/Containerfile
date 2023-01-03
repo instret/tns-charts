@@ -1,4 +1,4 @@
-# docker build -t vaultwarden-rootless:1.27.0 -f Containerfile .
+# docker build -t vaultwarden-rootless:1.27.0 --network=host -f Containerfile .
 FROM vaultwarden/server:1.27.0-alpine
 
 # setcap to ensure rootless mode
