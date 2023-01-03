@@ -1,0 +1,9 @@
+# docker build -t vaultwarden-rootless:1.27.0 -f Containerfile .
+FROM vaultwarden/server:1.27.0-alpine
+
+# setcap to ensure rootless mode
+RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.sjtug.sjtu.edu.cn/g' /etc/apk/repositories
+RUN apk add --no-cache libcap
+RUN setcap 'cap_net_bind_service=+ep' /vaultwarden
+
+CMD ["/start.sh"]
