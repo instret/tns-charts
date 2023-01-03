@@ -9,5 +9,5 @@ home: https://caddyserver.com
 icon: https://caddyserver.com/resources/images/favicon.png
 keywords:
 - security
-name: vaultwarden
+name: caddy
 version: 1.0.0
