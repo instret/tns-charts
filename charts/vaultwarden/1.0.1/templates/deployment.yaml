@@ -47,6 +47,7 @@ spec:
             {{ $envList := (default list .Values.environmentVariables) }}
             {{ $envList = mustAppend $envList (dict "name" "PUID" "value" (printf "%d" (.Values.ownerUID | int))) }}
             {{ $envList = mustAppend $envList (dict "name" "PGID" "value" (printf "%d" (.Values.ownerGID | int))) }}
+            {{ $envList = mustAppend $envList (dict "name" "TZ" "value" (printf "%s" .Values.timezone)) }}
             {{ $envList = mustAppend $envList (dict "name" "WEBSOCKET_ENABLED" "value" "true") }}
             {{ $envList = mustAppend $envList (dict "name" "SIGNUPS_ALLOWED" "value" "false") }}
             {{ include "common.containers.environmentVariables" (dict "environmentVariables" $envList) | nindent 12 }}

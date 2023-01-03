@@ -26,18 +26,18 @@ questions:
     group: Networking
     schema:
       type: int
-      min: 8000
+      min: 9000
       max: 65535
-      default: 8001
+      default: 9001
       required: true
   - variable: ws_port
     label: "WebSocket Port for vaultwarden"
     group: Networking
     schema:
       type: int
-      min: 8000
+      min: 9000
       max: 65535
-      default: 8002
+      default: 9002
       required: true
   - variable: hostNetwork
     label: "Host Network"
@@ -90,6 +90,14 @@ questions:
       default: 1001
       min: 1
       max: 65535
+
+  - variable: timezone
+    label: "Timezone"
+    group: "Configuration"
+    schema:
+      type: string
+      $ref:
+        - "definitions/timezone"
 
   - variable: appVolumeMounts
     label: "Vaultwarden Storage"
