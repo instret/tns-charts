@@ -30,12 +30,6 @@ questions:
       max: 65535
       default: 443
       required: true
-  - variable: hostNetwork
-    label: "Host Network"
-    group: Networking
-    schema:
-      type: boolean
-      default: true
 
   - variable: dnsConfig
     label: "DNS Configuration"

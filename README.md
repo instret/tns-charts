@@ -6,3 +6,4 @@ For migrating to TrueNAS. Templates are came from [official charts](https://gith
 - [ ] Push image to docker
 - [ ] Restrict ports?
 - [ ] Depth understanding of k8s
+- [ ] Simplify the spec
