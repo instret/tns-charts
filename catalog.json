@@ -1,19 +1,5 @@
 {
     "charts": {
-        "vaultwarden": {
-            "name": "vaultwarden",
-            "categories": [
-                "security"
-            ],
-            "app_readme": "<p>Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs</p>",
-            "location": "/__w/tns-charts/tns-charts/charts/vaultwarden",
-            "healthy": true,
-            "healthy_error": null,
-            "latest_version": "1.0.1",
-            "latest_app_version": "1.27.0",
-            "latest_human_version": "1.27.0_1.0.1",
-            "icon_url": "https://vault.bitwarden.com/images/icons/android-chrome-512x512.png"
-        },
         "mozsearch": {
             "name": "mozsearch",
             "categories": [
