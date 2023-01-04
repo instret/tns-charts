@@ -3,15 +3,15 @@
         "mozsearch": {
             "name": "mozsearch",
             "categories": [
-                "productivity"
+                "code"
             ],
             "app_readme": "<p>Mozilla code search website. (Please file bugs in bugzilla at https://mzl.la/2YtXmoN)</p>",
             "location": "/__w/tns-charts/tns-charts/charts/mozsearch",
             "healthy": true,
             "healthy_error": null,
             "latest_version": "1.0.1",
-            "latest_app_version": "v20230103",
-            "latest_human_version": "v20230103_1.0.1",
+            "latest_app_version": "20230103",
+            "latest_human_version": "20230103_1.0.1",
             "icon_url": "https://raw.githubusercontent.com/instret/mozsearch/master/static/icons/search.png"
         }
     }

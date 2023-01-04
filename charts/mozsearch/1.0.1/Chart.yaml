@@ -1,11 +1,11 @@
 apiVersion: v2
-appVersion: "v20230103"
+appVersion: "20230103"
 dependencies:
   - name: common
     repository: https://library-charts.truecharts.org
     version: 11.1.2
 deprecated: false
-description: P2P file synchronization application
+description: Mozilla code search website. (Please file bugs in bugzilla at https://mzl.la/2YtXmoN)
 home: https://github.com/instret/mozsearch
 icon: https://raw.githubusercontent.com/instret/mozsearch/master/static/icons/search.png
 keywords:
