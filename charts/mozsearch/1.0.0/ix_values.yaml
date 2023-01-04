@@ -1,4 +1,0 @@
-image:
-  pullPolicy: IfNotPresent
-  repository: by73/mozsearch
-  tag: 20230103-de2c7e68

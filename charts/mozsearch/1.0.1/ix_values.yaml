@@ -1,0 +1,22 @@
+image:
+  repository: by73/mozsearch
+  pullPolicy: IfNotPresent
+  tag: 20230103-de2c7e68
+
+service:
+  main:
+    ports:
+      main:
+        port: 9280
+        targetPort: 80
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+  data:
+    enabled: true
+    mountPath: "/data"
+
+portal:
+  enabled: true

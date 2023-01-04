@@ -1,0 +1,23 @@
+apiVersion: v2
+appVersion: "v20230103"
+dependencies:
+  - name: common
+    repository: https://library-charts.truecharts.org
+    version: 11.1.2
+deprecated: false
+description: P2P file synchronization application
+home: https://github.com/instret/mozsearch
+icon: https://raw.githubusercontent.com/instret/mozsearch/master/static/icons/search.png
+keywords:
+  - code
+kubeVersion: ">=1.16.0-0"
+name: mozsearch
+sources:
+  - https://github.com/instret/mozsearch
+type: application
+version: 1.0.1
+annotations:
+  truecharts.org/catagories: |
+    - code
+  truecharts.org/SCALE-support: "true"
+  truecharts.org/grade: U
