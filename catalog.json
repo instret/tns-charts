@@ -14,20 +14,6 @@
             "latest_human_version": "1.27.0_1.0.1",
             "icon_url": "https://vault.bitwarden.com/images/icons/android-chrome-512x512.png"
         },
-        "caddy": {
-            "name": "caddy",
-            "categories": [
-                "webserver"
-            ],
-            "app_readme": "<p>Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS</p>",
-            "location": "/__w/tns-charts/tns-charts/charts/caddy",
-            "healthy": true,
-            "healthy_error": null,
-            "latest_version": "1.0.0",
-            "latest_app_version": "2.6.2",
-            "latest_human_version": "2.6.2_1.0.0",
-            "icon_url": "https://caddyserver.com/resources/images/favicon.png"
-        },
         "mozsearch": {
             "name": "mozsearch",
             "categories": [

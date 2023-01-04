@@ -7,3 +7,4 @@ For migrating to TrueNAS. Templates are came from [official charts](https://gith
 - [ ] Restrict ports?
 - [ ] Depth understanding of k8s
 - [ ] Simplify the spec
+- [ ] Follow [truecharts](https://github.com/truecharts/catalog) for reverse proxy

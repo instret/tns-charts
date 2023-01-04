@@ -1,4 +1,0 @@
-image:
-  pullPolicy: IfNotPresent
-  repository: caddy-extra
-  tag: 2.6.2
